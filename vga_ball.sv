@@ -96,7 +96,7 @@ module vga_ball (
 );
 
     // VGA sync counters
-    wire [10:0] hcount;
+    wire [9:0] hcount;
     wire [9:0]  vcount;
 
     vga_counters counters_inst (
